@@ -1,0 +1,32 @@
+.container{
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 500px;
+      
+
+         .Shoppers{
+            border: solid 2px black;
+            font-size: 20px;
+            background-color: white;
+         }
+        .icons{
+            font-size: 20px;
+            display: flex;
+            gap: 6px;
+        }
+    }
+}
+
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+
+    a{
+        text-decoration: none;
+        color:black;
+    }
+}

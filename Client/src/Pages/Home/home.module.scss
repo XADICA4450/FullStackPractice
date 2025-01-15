@@ -1,0 +1,143 @@
+.shoes {
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 1200px;
+}
+
+.shoe {
+    border: 1px solid #e0e0e0;  
+    border-radius: 8px;  
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    transition: box-shadow 0.3s ease-in-out;
+    background-color: #fff;
+}
+
+.shoe:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  
+}
+
+.shoe img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;  
+    object-fit: contain;  
+}
+
+.name {
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px 0;
+    color: #333;
+}
+
+.description {
+    font-size: 0.9rem;
+    color: #666;
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.price {
+    font-size: 1.1rem;
+    color: #E91E63;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.cart {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: white;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.cart:hover {
+    background-color: #0056b3;
+}
+
+.cart svg {
+    margin-right: 8px;
+}
+
+.shoe .actions {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 12px;
+}
+
+.shoe .actions a,
+.shoe .actions svg {
+    font-size: 1.4rem;
+    color: #333;
+    transition: color 0.3s;
+}
+
+.shoe .actions a:hover,
+.shoe .actions svg:hover {
+    color: #007BFF;  
+}
+.perfect{
+    position: relative;
+    left: 1000px;
+    bottom: 600px;
+}
+.now{
+    background-color: #7971ea;
+    color: White;
+    font-size: 14px;
+    width: 125px;
+    height: 45px;
+    border: solid #7971ea 0.5px;
+    border-radius: 3px;
+}
+p{
+    font-size: 20px;
+}
+
+.cardss{
+    display: flex;
+    gap: 20px;
+    padding: 0 200px;
+
+}
+.pi{
+    font-size: 60px;
+    color: #7971ea ;
+}
+.md{
+    font-size: 60px;
+    color: #7971ea ;
+}
+.io{
+    font-size: 60px;
+    color: #7971ea ;
+}
+
+.pic{
+    display: flex;
+    gap: 10px;
+    padding: 50px 200px;
+}
+
+.image{
+    width: 400px;
+}
+.title{
+    position: relative;
+    top: 430px;
+    right: 400px;
+
+}
